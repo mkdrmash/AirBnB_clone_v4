@@ -1,5 +1,5 @@
 // const host = 'localhost';
-const host = '0.0.0.0';
+const host = 'c16bb0d217a0.e85c598c.alx-cod.online';
 
 const checkAmenities = function () {
   const checkedAmenities = {};
