@@ -30,6 +30,8 @@ def hbnb():
     amenities = storage.all(Amenity).values()
     amenities = sorted(amenities, key=lambda k: k.name)
 
+    print(amenities)
+
     places = storage.all(Place).values()
     places = sorted(places, key=lambda k: k.name)
 
